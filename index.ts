@@ -1,6 +1,7 @@
-import { ServerRequest } from "https://deno.land/std@0.83.0/http/server.ts"
-import { soxa } from "https://deno.land/x/soxa/mod.ts"
+import Aqua from "aqua";
 
-import { Model } from "./model/model.ts"
+const app = new Aqua(3100);
 
-
+app.get("/", () => {
+    return "Hello World";
+});
