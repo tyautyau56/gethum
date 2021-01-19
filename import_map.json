@@ -1,9 +1,5 @@
 {
     "imports": {
         "aqua": "https://denopkg.com/l2ig/aqua/mod.ts"
-    },
-    "scripts": {
-        "run": "deno run --allow-net --allow-env --importmap=import_map.json index.ts",
-        "dev": "denon dev"
     }
 }
